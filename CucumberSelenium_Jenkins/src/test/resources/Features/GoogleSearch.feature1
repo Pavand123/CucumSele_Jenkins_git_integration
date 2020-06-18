@@ -1,0 +1,8 @@
+Feature: Test the search functionality of google
+
+  Scenario: Test the search functionality
+    Given Browser is open
+    And user is on search page
+    When user enters text on search box
+    And hits enter
+    Then user should be navigated to searched page
